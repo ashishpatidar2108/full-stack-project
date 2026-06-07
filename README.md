@@ -179,8 +179,8 @@ http://localhost:5000
 
 ## My Deployed Links
 
-- Frontend: 
-- Backend: 
+- Frontend: https://full-stack-project8.netlify.app/
+- Backend: https://full-stack-project8.onrender.com
 
 ## Problems I Faced
 

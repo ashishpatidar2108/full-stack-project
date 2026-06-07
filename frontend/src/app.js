@@ -3,7 +3,21 @@ import TaskService from "./services/api";
 import TaskForm from "./components/TaskForm";
 import TaskList from "./components/TaskList";
 import "./index.css";
+import axios from "axios";
 
+function App() {
+  useEffect(() => {
+    axios.get("http://full-stack-project8.onrender.com/api/tasks")
+      .then((res) => console.log(res.data))
+      .catch((err) => console.error( err));
+  }, []);
+
+  return (
+    <div>hello, world!</div>
+  );
+  export default App;
+  // Rest of the App component code...
+}
 function App() {
   // Main state
   const [tasks, setTasks] = useState([]);

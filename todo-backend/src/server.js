@@ -4,6 +4,10 @@ const app = require('./app');
 const connectDB = require('./config/db');
 const Task = require('./models/task');
 
+app.get("/" , (req, res) => {
+  res.send("backend is running");
+});
+
 
 // Use the PORT
 
